@@ -1,0 +1,68 @@
+.products-list-container {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  justify-content: center;
+  align-items: center;
+  grid-row-gap: 20px;
+  grid-column-gap: 70px;
+}
+.products-list {
+  text-align: center;
+  width: 200px;
+  height: 310px;
+  border: 1px solid blanchedalmond;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px white;
+  vertical-align: middle;
+  padding: 15px;
+}
+.products-list > a > img {
+  padding: 5px;
+  margin: 5px 2px;
+  border-radius: 10%;
+  width: 170px;
+  height: 150px;
+}
+.products-list > a > p {
+  margin-bottom: 0px;
+  word-break: break-all;
+  font-family: cursive;
+  font-size: medium;
+}
+.products-list > a {
+  color: black;
+  text-decoration: none;
+}
+.product-details-container {
+  display: flex;
+  border: 1px solid blanchedalmond;
+}
+.product-images-container {
+  display: flex;
+  padding: 30px;
+}
+li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.product-all-images {
+  width: 80px;
+  margin: 10px;
+  cursor: pointer;
+}
+.product-image {
+  margin: 10px 15px;
+}
+.product-image > img {
+  width: 250px;
+  margin: 35px 65px;
+}
+.product-description {
+  font-family: cursive;
+  margin: 60px 40px;
+}
+.search-item {
+  text-align: center;
+  margin: 2em;
+}
